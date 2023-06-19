@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\chapter1">
       <UniqueIdentifier>{c5b8f8f0-7c35-4c3d-9ef2-b4ee97cabc6e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter2">
+      <UniqueIdentifier>{147c1474-d78f-4398-9941-658a323ebe01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter3">
+      <UniqueIdentifier>{28bdd6aa-1a95-4ab8-9cc0-b6a8e510e28d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example1_1.cpp">
@@ -27,5 +33,55 @@
     <ClCompile Include="example1_3.cpp">
       <Filter>소스 파일\chapter1</Filter>
     </ClCompile>
+    <ClCompile Include="example2_1.cpp">
+      <Filter>소스 파일\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="example2_2.cpp">
+      <Filter>소스 파일\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="example2_3.cpp">
+      <Filter>소스 파일\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="example2_6.cpp">
+      <Filter>소스 파일\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="example2_8.cpp">
+      <Filter>소스 파일\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="example3_2.cpp">
+      <Filter>소스 파일\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="example3_5.cpp">
+      <Filter>소스 파일\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="example3_6.cpp">
+      <Filter>소스 파일\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="example3_8.cpp">
+      <Filter>소스 파일\chapter3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="car.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sports_car.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="polynomial.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayStack.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="student.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="studentStack.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="operand_stack.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

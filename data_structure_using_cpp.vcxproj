@@ -130,6 +130,24 @@
     <ClCompile Include="example1_1.cpp" />
     <ClCompile Include="example1_2.cpp" />
     <ClCompile Include="example1_3.cpp" />
+    <ClCompile Include="example2_1.cpp" />
+    <ClCompile Include="example2_2.cpp" />
+    <ClCompile Include="example2_3.cpp" />
+    <ClCompile Include="example2_6.cpp" />
+    <ClCompile Include="example2_8.cpp" />
+    <ClCompile Include="example3_2.cpp" />
+    <ClCompile Include="example3_5.cpp" />
+    <ClCompile Include="example3_6.cpp" />
+    <ClCompile Include="example3_8.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayStack.hpp" />
+    <ClInclude Include="car.hpp" />
+    <ClInclude Include="operand_stack.hpp" />
+    <ClInclude Include="polynomial.hpp" />
+    <ClInclude Include="sports_car.hpp" />
+    <ClInclude Include="student.hpp" />
+    <ClInclude Include="studentStack.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

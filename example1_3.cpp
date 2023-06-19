@@ -11,9 +11,11 @@ int sequentialSearch(int list[], int n, int key)
 	return -1;
 }
 
-int main()
+int main_example1_3()
 {
 	int data[] = { 3, 5, 10, 7, 2 };
 	int key = 3;
 	cout << sequentialSearch(data, sizeof(data), key);
+
+	return 0;
 }
