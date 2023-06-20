@@ -1,6 +1,6 @@
 #include "linked_queue.hpp"
 
-void main()
+void main_example5_13()
 {
 	LinkedQueue que;
 	

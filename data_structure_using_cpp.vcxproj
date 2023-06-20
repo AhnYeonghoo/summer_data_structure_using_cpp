@@ -151,10 +151,12 @@
     <ClCompile Include="example5_2.cpp" />
     <ClCompile Include="example5_4.cpp" />
     <ClCompile Include="example5_5.cpp" />
+    <ClCompile Include="example6_4.cpp" />
     <ClCompile Include="location2d.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.hpp" />
+    <ClInclude Include="array_list.hpp" />
     <ClInclude Include="car.hpp" />
     <ClInclude Include="circular_deque.hpp" />
     <ClInclude Include="circular_queue.hpp" />
