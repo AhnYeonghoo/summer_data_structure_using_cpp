@@ -135,19 +135,31 @@
     <ClCompile Include="example2_3.cpp" />
     <ClCompile Include="example2_6.cpp" />
     <ClCompile Include="example2_8.cpp" />
+    <ClCompile Include="example3_11.cpp" />
     <ClCompile Include="example3_2.cpp" />
     <ClCompile Include="example3_5.cpp" />
     <ClCompile Include="example3_6.cpp" />
     <ClCompile Include="example3_8.cpp" />
+    <ClCompile Include="example3_9.cpp" />
+    <ClCompile Include="example4_2.cpp" />
+    <ClCompile Include="example4_3.cpp" />
+    <ClCompile Include="example4_7.cpp" />
+    <ClCompile Include="example4_8.cpp" />
+    <ClCompile Include="location2d.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.hpp" />
     <ClInclude Include="car.hpp" />
+    <ClInclude Include="circular_deque.hpp" />
+    <ClInclude Include="circular_queue.hpp" />
     <ClInclude Include="operand_stack.hpp" />
     <ClInclude Include="polynomial.hpp" />
     <ClInclude Include="sports_car.hpp" />
     <ClInclude Include="student.hpp" />
     <ClInclude Include="studentStack.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="customer.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

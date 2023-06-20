@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\chapter3">
       <UniqueIdentifier>{28bdd6aa-1a95-4ab8-9cc0-b6a8e510e28d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter4">
+      <UniqueIdentifier>{e98c2da4-055f-4eb1-a09b-39e57c940206}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example1_1.cpp">
@@ -60,6 +63,27 @@
     <ClCompile Include="example3_8.cpp">
       <Filter>소스 파일\chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="example3_9.cpp">
+      <Filter>소스 파일\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="location2d.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="example3_11.cpp">
+      <Filter>소스 파일\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="example4_2.cpp">
+      <Filter>소스 파일\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="example4_3.cpp">
+      <Filter>소스 파일\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="example4_7.cpp">
+      <Filter>소스 파일\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="example4_8.cpp">
+      <Filter>소스 파일\chapter4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.hpp">
@@ -83,5 +107,16 @@
     <ClInclude Include="operand_stack.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="circular_queue.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="circular_deque.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="customer.hpp">
+      <Filter>헤더 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
