@@ -145,6 +145,12 @@
     <ClCompile Include="example4_3.cpp" />
     <ClCompile Include="example4_7.cpp" />
     <ClCompile Include="example4_8.cpp" />
+    <ClCompile Include="example5_1.cpp" />
+    <ClCompile Include="example5_10.cpp" />
+    <ClCompile Include="example5_13.cpp" />
+    <ClCompile Include="example5_2.cpp" />
+    <ClCompile Include="example5_4.cpp" />
+    <ClCompile Include="example5_5.cpp" />
     <ClCompile Include="location2d.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +158,10 @@
     <ClInclude Include="car.hpp" />
     <ClInclude Include="circular_deque.hpp" />
     <ClInclude Include="circular_queue.hpp" />
+    <ClInclude Include="linked_queue.hpp" />
+    <ClInclude Include="linked_stack.hpp" />
+    <ClInclude Include="node.hpp" />
+    <ClInclude Include="node2.hpp" />
     <ClInclude Include="operand_stack.hpp" />
     <ClInclude Include="polynomial.hpp" />
     <ClInclude Include="sports_car.hpp" />
