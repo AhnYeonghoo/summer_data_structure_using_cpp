@@ -1,5 +1,5 @@
 #include "array_list.hpp"
-void main()
+void main_example6_4()
 {
 	ArrayList list;
 	
