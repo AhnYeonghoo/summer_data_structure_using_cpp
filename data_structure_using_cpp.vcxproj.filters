@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\chapter9">
       <UniqueIdentifier>{121032aa-00d4-4247-9b65-9a2337a609dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter10">
+      <UniqueIdentifier>{59b74547-a0c8-445d-8abe-1aa807f9f38c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example1_1.cpp">
@@ -159,6 +162,9 @@
     <ClCompile Include="example9_9.cpp">
       <Filter>소스 파일\chapter9</Filter>
     </ClCompile>
+    <ClCompile Include="example10_4.cpp">
+      <Filter>소스 파일\chapter10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.hpp">
@@ -225,6 +231,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="binary_search_tree.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="heapnode.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="max_heap.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
