@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\chapter8">
       <UniqueIdentifier>{58ee9378-3522-4ed5-87b8-700ed06c7720}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter9">
+      <UniqueIdentifier>{121032aa-00d4-4247-9b65-9a2337a609dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example1_1.cpp">
@@ -153,6 +156,9 @@
     <ClCompile Include="example8_4.cpp">
       <Filter>소스 파일\chapter8</Filter>
     </ClCompile>
+    <ClCompile Include="example9_9.cpp">
+      <Filter>소스 파일\chapter9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.hpp">
@@ -213,6 +219,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="binarytree.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="circular_level_queue.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search_tree.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

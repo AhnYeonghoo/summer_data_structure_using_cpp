@@ -87,4 +87,59 @@ public:
 		int hRight = getHeight(node->getRight());
 		return (hLeft > hRight) ? hLeft + 1 : hRight + 1;
 	}
+
+	void remove(BinaryNode* parent, BinaryNode* node)
+	{
+		if (node->isLeaf())
+		{
+			if (parent == nullptr)
+			{
+				root = nullptr;
+			}
+			else
+			{
+				if (parent->getLeft() == node)
+				{
+					parent->setLeft(NULL);
+				}
+				else
+				{
+					parent->setRight(NULL);
+				}
+			}
+		}
+		else if (node->getLeft() == nullptr || node->getRight() == nullptr)
+		{
+			BinaryNode* child = (node->getLeft() != nullptr) ? node->getLeft() : node->getRight();
+
+			if (node == root) root = child;
+			else
+			{
+				if (parent->getLeft() == node)
+				{
+					parent->setLeft(child);
+				}
+				else
+				{
+					parent->setRight(child);
+				}
+			}
+		}
+		else
+		{
+			BinaryNode* succp = node;
+			BinaryNode* succ = node->getRight();
+			while (succ->getLeft() != nullptr)
+			{
+				succp = succ;
+				succ = succ->getLeft();
+			}
+			if (succp->getLeft() == succ) succp->setLeft(succ->getRight());
+			else succp->setRight(succ->getRight());
+
+			node->setData(succ->getData());
+			node = succ;
+		}
+		delete node;
+	}
 };

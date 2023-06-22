@@ -1,6 +1,6 @@
 #include "binarytree.hpp"
 
-void main()
+void main_example8_4()
 {
 	BinaryTree tree;
 	BinaryNode* d = new BinaryNode('D', nullptr, nullptr);

@@ -164,6 +164,7 @@
     <ClCompile Include="example7_7.cpp" />
     <ClCompile Include="example7_9.cpp" />
     <ClCompile Include="example8_4.cpp" />
+    <ClCompile Include="example9_9.cpp" />
     <ClCompile Include="location2d.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -171,8 +172,10 @@
     <ClInclude Include="array_list.hpp" />
     <ClInclude Include="binarynode.hpp" />
     <ClInclude Include="binarytree.hpp" />
+    <ClInclude Include="binary_search_tree.hpp" />
     <ClInclude Include="car.hpp" />
     <ClInclude Include="circular_deque.hpp" />
+    <ClInclude Include="circular_level_queue.hpp" />
     <ClInclude Include="circular_queue.hpp" />
     <ClInclude Include="double_linked_list.hpp" />
     <ClInclude Include="linked_list.hpp" />

@@ -19,4 +19,14 @@ public:
 	BinaryNode* getLeft() { return left; }
 	BinaryNode* getRight() { return right; }
 	bool isLeaf() { return left == nullptr && right == nullptr; }
+
+	BinaryNode* search(int key)
+	{
+		if (key == data) return this;
+		else if (key < data && left != nullptr) return left->search(key);
+		else if (key > data && right != nullptr) return right->search(key);
+		else return nullptr;
+	}
+
+
 };
