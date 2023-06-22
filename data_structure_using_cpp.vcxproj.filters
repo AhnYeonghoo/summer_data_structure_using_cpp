@@ -31,6 +31,12 @@
     <Filter Include="소스 파일\chapter6">
       <UniqueIdentifier>{42d5af66-5156-4794-972c-c40ae3631342}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter7">
+      <UniqueIdentifier>{7c8ae7a1-a686-4803-a324-8ba2fc051b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter8">
+      <UniqueIdentifier>{58ee9378-3522-4ed5-87b8-700ed06c7720}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example1_1.cpp">
@@ -117,6 +123,36 @@
     <ClCompile Include="example6_10.cpp">
       <Filter>소스 파일\chapter6</Filter>
     </ClCompile>
+    <ClCompile Include="double_linked_deque.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_1.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_2.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_3.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_4.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_5.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_6.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_7.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example7_9.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="example8_4.cpp">
+      <Filter>소스 파일\chapter8</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.hpp">
@@ -171,6 +207,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="double_linked_list.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="binarynode.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="binarytree.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

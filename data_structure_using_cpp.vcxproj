@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="double_linked_deque.hpp" />
     <ClCompile Include="example1_1.cpp" />
     <ClCompile Include="example1_2.cpp" />
     <ClCompile Include="example1_3.cpp" />
@@ -152,13 +153,24 @@
     <ClCompile Include="example5_4.cpp" />
     <ClCompile Include="example5_5.cpp" />
     <ClCompile Include="example6_10.cpp" />
+    <ClCompile Include="example7_2.cpp" />
     <ClCompile Include="example6_4.cpp" />
     <ClCompile Include="example6_7.cpp" />
+    <ClCompile Include="example7_1.cpp" />
+    <ClCompile Include="example7_3.cpp" />
+    <ClCompile Include="example7_4.cpp" />
+    <ClCompile Include="example7_5.cpp" />
+    <ClCompile Include="example7_6.cpp" />
+    <ClCompile Include="example7_7.cpp" />
+    <ClCompile Include="example7_9.cpp" />
+    <ClCompile Include="example8_4.cpp" />
     <ClCompile Include="location2d.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.hpp" />
     <ClInclude Include="array_list.hpp" />
+    <ClInclude Include="binarynode.hpp" />
+    <ClInclude Include="binarytree.hpp" />
     <ClInclude Include="car.hpp" />
     <ClInclude Include="circular_deque.hpp" />
     <ClInclude Include="circular_queue.hpp" />
