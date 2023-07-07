@@ -156,7 +156,7 @@ ostream& operator<<(ostream& o, const SLinkedList<T>& list)
 }
 
 
-int main()
+int mainSLinkeList()
 {
 	SLinkedList<int> SList;
 	SList.insert(10, 0), cout << SList;
