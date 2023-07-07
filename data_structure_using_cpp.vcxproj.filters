@@ -165,6 +165,15 @@
     <ClCompile Include="example10_4.cpp">
       <Filter>소스 파일\chapter10</Filter>
     </ClCompile>
+    <ClCompile Include="example10_5.cpp">
+      <Filter>소스 파일\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="example10_6.cpp">
+      <Filter>소스 파일\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="SLinkedList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.hpp">

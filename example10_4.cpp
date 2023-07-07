@@ -1,6 +1,6 @@
 #include "max_heap.hpp"
 
-void main()
+void main_example10_4()
 {
 	MaxHeap heap;
 	
