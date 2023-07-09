@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArrayQueue.cpp" />
+    <ClCompile Include="BTree.cpp" />
     <ClCompile Include="double_linked_deque.hpp" />
     <ClCompile Include="example10_4.cpp" />
     <ClCompile Include="example10_5.cpp" />
