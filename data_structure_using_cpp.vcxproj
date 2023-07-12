@@ -173,6 +173,7 @@
     <ClCompile Include="LinkedQueue.cpp" />
     <ClCompile Include="location2d.hpp" />
     <ClCompile Include="SLinkedList.cpp" />
+    <ClCompile Include="unique_ptr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.hpp" />
