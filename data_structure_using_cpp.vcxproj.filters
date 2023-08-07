@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\chapter10">
       <UniqueIdentifier>{59b74547-a0c8-445d-8abe-1aa807f9f38c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\temaplates">
+      <UniqueIdentifier>{b8ab4ff1-3630-4684-9f1a-7ecef22ff8fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example1_1.cpp">
@@ -183,9 +186,21 @@
     <ClCompile Include="BTree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="unique_ptr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+=======
+    <ClCompile Include="thread.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>소스 파일\temaplates</Filter>
+    </ClCompile>
+    <ClCompile Include="variadic_template.cpp">
+      <Filter>소스 파일\temaplates</Filter>
+    </ClCompile>
+>>>>>>> 4dcfef07195a3df1c83bfda368a6683d8e055107
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.hpp">

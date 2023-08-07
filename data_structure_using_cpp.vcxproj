@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -172,8 +173,14 @@
     <ClCompile Include="example9_9.cpp" />
     <ClCompile Include="LinkedQueue.cpp" />
     <ClCompile Include="location2d.hpp" />
+    <ClCompile Include="template.cpp" />
+    <ClCompile Include="thread.cpp" />
     <ClCompile Include="SLinkedList.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="unique_ptr.cpp" />
+=======
+    <ClCompile Include="variadic_template.cpp" />
+>>>>>>> 4dcfef07195a3df1c83bfda368a6683d8e055107
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.hpp" />
